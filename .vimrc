@@ -8,6 +8,8 @@ endif
 
 call plug#begin('~/.vim/plugged')
     Plug 'ctrlpvim/ctrlp.vim'
+    Plug 'tpope/vim-fugitive'
+    Plug 'gregsexton/gitv'
     Plug 'https://github.com/martinda/Jenkinsfile-vim-syntax.git'
     Plug 'https://github.com/peterhoeg/vim-qml.git'
 call plug#end()
